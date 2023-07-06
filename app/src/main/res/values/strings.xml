@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NewsApp_Project</string>
+
+    <string name="api_key">5d2b3f9a18a9464f945f8880e8937122</string>
+    <string name="tabLayout">tab</string>>
+    <string name="news_feed">News Feed</string>
+
+</resources>

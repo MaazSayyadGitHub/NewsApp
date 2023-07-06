@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            
+            <TextView
+                android:id="@+id/main_heading"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="Main Headijhgadjagd ajdgajd jagdjhgsd jagdjhad jagdjagdhk agdjgdang here is the main game started bro just chill"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="6"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:text="Main Content Main Content"
+                    />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/not_available"
+                    android:scaleType="centerCrop"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/auther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By Maaz Sayyad"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/publishedAt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12/03/2023"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
